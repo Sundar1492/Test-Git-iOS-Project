@@ -21,6 +21,7 @@
 		F45798BC19BDB5B400F3CC62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F457989E19BDB5B400F3CC62 /* UIKit.framework */; };
 		F45798C419BDB5B400F3CC62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F45798C219BDB5B400F3CC62 /* InfoPlist.strings */; };
 		F45798C619BDB5B400F3CC62 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F45798C519BDB5B400F3CC62 /* Git_TestTests.m */; };
+		F45798D119BDB98400F3CC62 /* SSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F45798D019BDB98400F3CC62 /* SSTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		F45798C119BDB5B400F3CC62 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		F45798C319BDB5B400F3CC62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F45798C519BDB5B400F3CC62 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		F45798CF19BDB98400F3CC62 /* SSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTest.h; sourceTree = "<group>"; };
+		F45798D019BDB98400F3CC62 /* SSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				F45798B019BDB5B400F3CC62 /* SSViewController.m */,
 				F45798B219BDB5B400F3CC62 /* Images.xcassets */,
 				F45798A119BDB5B400F3CC62 /* Supporting Files */,
+				F45798CF19BDB98400F3CC62 /* SSTest.h */,
+				F45798D019BDB98400F3CC62 /* SSTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F45798B119BDB5B400F3CC62 /* SSViewController.m in Sources */,
+				F45798D119BDB98400F3CC62 /* SSTest.m in Sources */,
 				F45798AB19BDB5B400F3CC62 /* SSAppDelegate.m in Sources */,
 				F45798A719BDB5B400F3CC62 /* main.m in Sources */,
 			);
